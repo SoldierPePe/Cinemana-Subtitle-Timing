@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Cinemana Subtitle Timing
 // @namespace    SoldierPePe
-// @updateURL    https://github.com/SoldierPePe/Cinemana-Subtitle-Timing/raw/master/CST-User.js
-// @downloadURL  https://github.com/SoldierPePe/Cinemana-Subtitle-Timing/raw/master/CST-User.js
+// @updateURL    https://github.com/SoldierPePe/Cinemana-Subtitle-Timing/raw/master/CST.user.js
+// @downloadURL  https://github.com/SoldierPePe/Cinemana-Subtitle-Timing/raw/master/CST.user.js
 // @version      0.1
 // @description  Iraq Earthlink users only
 // @author       SoldierPePe
