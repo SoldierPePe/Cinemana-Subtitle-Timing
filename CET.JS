@@ -41,8 +41,6 @@ function ChengSubTime() {
             return;
         } else if (timingVal + default_value > currnt) {
             let timeTmp = (timingVal + default_value) - currnt;
-            console.log(currnt);
-            console.log(timeTmp);
             for (let i = 0; i < window.videojs.players.player.textTracks()[0].cues_.length; i++) {
                 window.videojs.players.player.textTracks()[0].cues_[i].startTime += timeTmp;
                 window.videojs.players.player.textTracks()[0].cues_[i].endTime += timeTmp;
