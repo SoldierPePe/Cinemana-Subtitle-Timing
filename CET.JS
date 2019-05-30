@@ -1,3 +1,6 @@
+(function() {
+    console.log("Cinemana Subtitle Timing: CET FILE Loaded!");
+})();
 function ChengSubTime() {
     var timingVal = Number(jQuery('#timing-val').val());
     var currnt = window.videojs.players.player.textTracks()[0].cues_[0].startTime;
