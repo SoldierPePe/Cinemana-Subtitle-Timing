@@ -4,9 +4,9 @@
 // @updateURL    https://github.com/SoldierPePe/Cinemana-Subtitle-Timing/raw/master/CST.user.js
 // @downloadURL  https://github.com/SoldierPePe/Cinemana-Subtitle-Timing/raw/master/CST.user.js
 // @version      0.1
-// @description  Iraq Earthlink users only
+// @description  Subtitle Timing for Cinemana website (Iraq Earthlink users only).
 // @author       SoldierPePe
-// @match        *://cinemana.shabakaty.com/page/movie/watch/*
+// @match        *://cinemana.shabakaty.com/page/movie/watch/*/*
 // @run-at       document-end
 // @require      http://code.jquery.com/jquery-3.3.1.min.js
 // ==/UserScript==
