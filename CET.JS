@@ -1,9 +1,10 @@
-(function() {
+(function () {
     console.log("Cinemana Subtitle Timing: CET FILE Loaded!");
-        for (let index = 0; index < window.videojs.players.player.textTracks_.length-1; index++) {
-        jQuery(".CET-LANG").append(window.videojs.players.player.textTracks_[index].label);   
+    for (let index = 0; index < window.videojs.players.player.textTracks_.length-1; index++) {
+        jQuery(".CET-LANG").append(`<option value="${index}">${window.videojs.players.player.textTracks_[index].label}</option>`); 
     }
 })();
+
 function ChengSubTime() {
     var timingVal = Number(jQuery('#timing-val').val());
     var currnt = window.videojs.players.player.textTracks()[0].cues_[0].startTime;
