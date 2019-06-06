@@ -1,8 +1,5 @@
 (function () {
     console.log("Cinemana Subtitle Timing: CET FILE Loaded!");
-    for (let index = 0; index < window.videojs.players.player.textTracks_.length-1; index++) {
-        jQuery(".CET-LANG").append(`<option value="${index}">${window.videojs.players.player.textTracks_[index].label}</option>`); 
-    }
 })();
 
 function ChengSubTime() {
