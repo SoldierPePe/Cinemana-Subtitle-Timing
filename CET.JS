@@ -22,13 +22,13 @@ var langIndex = Number(jQuery('select.CET-LANG-SEL').val());
 })();
 
 function ChengSubTime() {
-    var timingVal = Number(jQuery('#timing-val').val()).toFixed(5);
+    var timingVal = Number(jQuery('#timing-val').val()).toFixed(3);
     var currnt = window.videojs.players.player.textTracks_[langIndex].cues_[0].startTime;
     if(window.SubTimeing.default_value[langIndex] == undefined ){
         window.SubTimeing.default_value[langIndex] = currnt;
     }
     window.SubTimeing.last_value[langIndex] = timingVal;
-    var default_value = window.SubTimeing.default_value;
+    var default_value = window.SubTimeing.default_value.toFixed(3);
 
     if (timingVal == 0) {
         if (currnt - default_value != 0) {
