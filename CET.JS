@@ -22,7 +22,7 @@ var langIndex = Number(jQuery('select.CET-LANG-SEL').val());
 })();
 
 function ChengSubTime() {
-    var timingVal = Number(jQuery('#timing-val').val());
+    var timingVal = Number(jQuery('#timing-val').val()).toFixed(5);
     var currnt = window.videojs.players.player.textTracks_[langIndex].cues_[0].startTime;
     if(window.SubTimeing.default_value[langIndex] == undefined ){
         window.SubTimeing.default_value[langIndex] = currnt;
