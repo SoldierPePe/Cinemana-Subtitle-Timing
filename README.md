@@ -7,13 +7,13 @@ Subtitle Timing for Cinemana website (Iraq Earthlink users only).
 You need to do install tampermonkey extension in your browser first
 
 
-Google chrome
+**Google chrome**
 https://chrome.google.com/webstore/detail/tampermonkey/
 
-Firefox
+**Firefox**
 https://addons.mozilla.org/ar/firefox/addon/tampermonkey/
 
-Opera
+**Opera**
 https://addons.opera.com/ar/extensions/details/tampermonkey-beta/
 
 
